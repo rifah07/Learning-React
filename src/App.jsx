@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Welcome from './Welcome';
-import Names from './Names';
+//import Names from './Names';
+import Greetings from './Greetings';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Welcome/>
-        <Names />
+        {/* <Names /> */}
+        <Greetings />
+        
       </header>
     </div>
   );
