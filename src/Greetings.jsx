@@ -1,4 +1,4 @@
-function Greetings(){
+function Greetings(props){
 
     const isLoogedIn= true;
 
@@ -11,7 +11,7 @@ function Greetings(){
     );*/
 
      if (isLoogedIn){
-        return <h1>Welcome Here!</h1>
+        return <h1>Welcome {props.username}!</h1>
      }else{
         return <h1>Please Log in</h1>
      }
