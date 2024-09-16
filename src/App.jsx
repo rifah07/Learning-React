@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import Welcome from './Welcome';
+import MyForm from './MyForm';
 //import Names from './Names';
-import Greetings from './Greetings';
+//import Greetings from './Greetings';
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Welcome/>
         {/* <Names /> */}
-        <Greetings />
-        
+       { /*<Greetings />  */}
+
+        <MyForm/>
       </header>
     </div>
   );
